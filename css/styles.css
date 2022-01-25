@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Roboto&family=Secular+One&family=Source+Code+Pro:wght@300&display=swap');
+@font-face {
+    font-family: Comic;
+    src: url(../assets/ComicBook.otf);
+}
+
+/*
+
+Teal Green #0086AC
+
+Blue Grotto #1181C8
+
+White #F2F0FC
+
+Red #FF0000
+
+*/
+
+/*HTML*/
+
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+}
+
+header {
+    background-color: whitesmoke;
+}
+
+main {
+    background-color: whitesmoke;
+    text-align: justify;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Bitter', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 60px;
+}
+
+h2 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: 'Bitter', serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+.worlds {
+    font-family: 'Roboto', sans-serif;
+}
+
+.photo {
+    width: 100%;
+}
+
+/* Compare */
+
+.right {
+    float: right;
+    border: 2px solid black;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.left {
+    float: left;
+    border: 2px solid black;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Gallery */
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 478px;
+    padding: 10px;
+}
+
+
+footer {
+    font-family: 'Source Code Pro', monospace;
+    background-color: whitesmoke;
+}

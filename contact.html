@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Marvel Universe</title>
+    <meta charset="UTF-8">
+    <link rel="shorcut icon" href="images/logo-icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1><a href="index.html">MARVEL UNIVERSE</a></h1>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="marvel.html">Marvel</a></li>
+                <li><a href="compare.html">Compare</a></li>
+                <li><a href="power.html">Power</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Contact form</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal data</legend>
+                    <p>
+                        <label for="username">
+                            <span>Name: </span>
+                        </label>
+                        <input type="text" id="username" name="username">
+                    </p>
+                    <p>
+                        <label for="surname">
+                            <span>Surname: </span>
+                        </label>
+                        <input type="text" id="surname" name="surname">
+                    </p>
+                    <p>
+                        <label for="email">
+                            <span>E-mail: </span>
+                        </label>
+                        <input type="email" id="email" name="email">
+                    </p>
+                    <p>
+                        <label for="phone">
+                            <span>Phone Number: </span>
+                        </label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+                    </p>
+
+                    <p>
+                        <label>
+                            <span>Sex: </span>
+                        </label>
+                        <label for="male"></label>
+                        <input type="radio" id="male" name="sex">Male
+                        <label for="female"></label>
+                        <input type="radio" id="female" name="sex">Female
+                    </p>
+                    <p>
+                        <label>
+                            <span>Preferred language</span>
+                        </label>
+                        <label for="valencia"></label>
+                        <input type="checkbox" id="valencia" name="language">Valencià
+                        <label for="castellano"></label>
+                        <input type="checkbox" id="castellano" name="language">Castellano
+                        <label for="english"></label>
+                        <input type="checkbox" id="english" name="language">English
+                    </p>
+                    <p>
+                        <label>
+                            <span>Please, contact me by: </span>
+                            <select>
+                                <option>E-mail</option>
+                                <option>Phone</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Message: </span>
+                        </label>
+                    </p>
+                    <p>
+                        <textarea cols="30" rows="4"></textarea>
+                    </p>
+                    <p>
+                        <label for="submit"></label>
+                        <input type="button" id="submit" name="submit" value="Send form">
+                        <label for="reset"></label>
+                        <input type="button" id="reset" name="reset" value="Reset form">
+                    </p>
+                </fieldset>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <p>Andreu Soriano - 2021/2022</p>
+        <p><a href="https://en.wikipedia.org/wiki/Marvel_Universe">Marvel Universe</a></p>
+    </footer>
+</body>
+
+</html>
